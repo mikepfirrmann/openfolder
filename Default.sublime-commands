@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "Preferences: OpenFolder Settings - Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/OpenFolder/OpenFolder.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: OpenFolder Settings - User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/OpenFolder.sublime-settings"
+        }
+    }
+]
