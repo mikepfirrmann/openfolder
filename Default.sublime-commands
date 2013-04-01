@@ -3,7 +3,7 @@
         "caption": "Preferences: OpenFolder Settings - Default",
         "command": "open_file", "args":
         {
-            "file": "${packages}/OpenFolder/OpenFolder.sublime-settings"
+            "file": "${packages}/Open Folder/OpenFolder.sublime-settings"
         }
     },
     {
