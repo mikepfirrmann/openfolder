@@ -1,4 +1,8 @@
 // As always, please edit User/OpenFolder.sublime-settings rather than this file.
 {
-	"file_manager": "xdg-open"
+	"file_manager": "xdg-open",
+
+	// Indicate whether the Side Bar menu item should be displayed
+	// to open the containing folder of the selected file(s).
+	"display_for_files" : true
 }
