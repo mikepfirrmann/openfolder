@@ -36,8 +36,8 @@ class OpenFolder(sublime_plugin.WindowCommand):
         elif dir_count == 1:
             return "Open Folder"
         elif file_count > 1 and display_for_files:
-            return "Open Containing Folders…"
+            return u"Open Containing Folders\u2026"
         elif file_count > 0 and display_for_files:
-            return "Open Containing Folder…"
+            return u"Open Containing Folder\u2026"
         else:
             return None
