@@ -1,3 +1,6 @@
 [
-	{ "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Open Containing Folder…" }
+	{ 
+        "command": "open_folder_open_current", "args": {},
+        "caption": "Open Containing Folder…" 
+    }
 ]

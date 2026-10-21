@@ -1,16 +1,22 @@
 [
     {
         "caption": "Preferences: OpenFolder Settings - Default",
-        "command": "open_file", "args":
-        {
-            "file": "${packages}/Open Folder/OpenFolder.sublime-settings"
-        }
+        "command": "open_folder_open_settings", "args": { "scope": "default"}
+    },
+    {
+        "caption": "Preferences: OpenFolder Settings - Default (OS-Specific)",
+        "command": "open_folder_open_settings", "args": { "scope": "os"}
     },
     {
         "caption": "Preferences: OpenFolder Settings - User",
-        "command": "open_file", "args":
-        {
-            "file": "${packages}/User/OpenFolder.sublime-settings"
-        }
+        "command": "open_folder_open_settings", "args": { "scope": "user"}
+    },
+    {
+        "caption": "Preferences: OpenFolder Settings - User (Host-Specific)",
+        "command": "open_folder_open_settings", "args": { "scope": "host"}
+    },
+    {
+        "caption": "OpenFolder: Open current file's containing folder",
+        "command": "open_folder_open_current"
     }
 ]

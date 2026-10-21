@@ -1,4 +1,17 @@
 // As always, please edit User.sublime-settings rather than this file.
 {
-	"file_manager": "explorer /e /root,\"{0}\""
+   "folder": {
+        "command": [
+            "explorer.exe",
+            "/e,/root,{dirname}"
+        ],
+        "use_shell": false
+    },
+    "file": {
+        "command": [
+            "explorer.exe",
+            "/e,/root,{dirname}","/select,{filepath}"
+        ],
+        "use_shell": false
+    }
 }
